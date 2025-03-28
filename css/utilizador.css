@@ -1,0 +1,92 @@
+/* Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #dac8b3;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(90deg, rgba(81,101,141,1) 0%, rgba(228,0,69,1) 33%, rgba(255, 204, 0,1) 66%, rgba(186,193,113,1) 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Section Form */
+  section {
+    background-color: white;
+    border: 1px solid rgba(81,101,141,1);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  section form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #008080;
+  }
+  
+  section form input,
+  section form select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  section form input:focus,
+  section form select:focus {
+    outline: none;
+    border-color: #008080;
+    box-shadow: 0 0 5px rgba(0, 128, 128, 0.5);
+  }
+  
+  /* Botões */
+  section form button,
+  section form .btn {
+    background-color: #008080;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+  }
+  
+  section form button:hover,
+  section form .btn:hover {
+    background-color: rgba(81,101,141,1);
+    transform: scale(1.05);
+  }
+  
+  /* Botão Voltar */
+  section form .btn {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  
+  

@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #dac8b3;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, rgba(81,101,141,1) 0%, rgba(228,0,69,1) 33%, rgba(255, 204, 0,1) 66%, rgba(186,193,113,1) 100%);
+  color: white;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  width: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background-color: rgba(51, 51, 51, .3);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  color: rgba(0, 0, 0,1);
+  background-color: rgb(255, 255, 255,.3);
+  transition: all .5s;
+}
+
+.login-btn a {
+  background-color: #ffffff;
+  color: rgba(81,101,141,1);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.login-btn a:hover {
+  background-color: rgba(81,101,141,1);
+  color: white;
+  transition: .4s;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.div-background {
+  width: fit-content;
+  padding: 20px;
+  border: 1px solid rgba(81,101,141,1);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .4);
+  background-color: white;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.div-background:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, .6);
+  transform: scale(1.05);
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid rgba(81,101,141,1);
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: rgba(81,101,141,1);
+  color: white;
+  font-weight: bold;
+}
+
+table td a {
+  text-decoration: none;
+  background-color: #008080;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+table td a:hover {
+  background-color: #004d4d;
+}
